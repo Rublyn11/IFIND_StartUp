@@ -1,0 +1,46 @@
+.ifind_img{
+    width: 350px;
+    height: 350px;
+}
+
+.ifind_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.ifind_main{
+    background: url(../images/Fight\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.ifind_text h1{
+    color: #fff;
+    font-size: 40px;
+}
+
+.ifind_text h1 span{
+    color: #FF6915;
+}
+
+.ifind_text p{
+    color: #fff;
+    font-size: 18px;
+}
+
+.ifind_text{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.ifind_text{
+    width: 50%;
+}
+
+.ifind{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

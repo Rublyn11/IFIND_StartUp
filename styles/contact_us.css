@@ -1,0 +1,84 @@
+.get-in-touch{
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 3em;
+    display: flex;
+    gap: 15em;
+}
+
+.hero{
+    background-image: url(../images/hero-background-image.png);
+    width: 100%;
+    height: auto;
+}
+.hero-text{
+    text-align: center;
+    padding-top: 6em;
+    padding-bottom: 10em;
+}
+
+.hero-text h1{
+    color: antiquewhite;
+    font-size: 3em;
+    letter-spacing: 3px;
+}
+
+.hero-text p{
+    font-weight: 4em ;
+    font-size: 1.6em;
+    color: antiquewhite;
+}
+
+.git-text h1{
+    font-size: 2em;
+}
+
+.phone, .Address, .Email{
+    display: flex;
+    
+}
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   width: 30em;
+   gap: 2em;
+  padding-bottom: 2em;
+  }
+  .input-field {
+    border-radius: 1em;
+    padding: 10px;
+  }
+  .input-subject{
+    
+    padding: 10px;
+    width: 33.8em;
+    border-radius: 1em;
+  }
+  .textarea{
+    padding-top: 2em;
+  }
+  textarea{
+    
+    width: 33.8em;
+    border-radius: 0.6em;
+    padding-top: 2em;
+
+  }
+   .btn{
+    padding-top: 6em;
+    background:#ff6915;
+    color: rgb(219, 226, 226);
+    
+    padding: 10px;
+    width: 20em;
+    border-radius: 0.5em;
+   }
+   .git-form{
+    padding-top: 6em;
+   }
+
+   @media screen and (max-width: 500px){
+    .get-in-touch{
+        flex-direction: column;
+    }
+   }
